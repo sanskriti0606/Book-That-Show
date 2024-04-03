@@ -1,0 +1,73 @@
+.loading {
+  width: 17vw;
+  height: 17vh;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+}
+.loading > div {
+  width: 4vmax;
+  height: 4vmax;
+  border-bottom: 5px solid rgb(52, 51, 51);
+  border-radius: 50%;
+  animation: loadingRotate 800ms linear infinite;
+}
+
+@keyframes loadingRotate {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .loading {
+    width: 70vw;
+    height: 17vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+  }
+  .loading > div {
+    width: 7vmax;
+    height: 7vmax;
+    border-bottom: 5px solid rgb(52, 51, 51);
+    border-radius: 50%;
+    animation: loadingRotate 800ms linear infinite;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .loading {
+    width: 35vw;
+    height: 17vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+  }
+  .loading > div {
+    width: 7vmax;
+    height: 7vmax;
+    border-bottom: 5px solid rgb(52, 51, 51);
+    border-radius: 50%;
+    animation: loadingRotate 800ms linear infinite;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .loading {
+    width: 17vw;
+    height: 17vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    max-width: 100%;
+  }
+  .loading > div {
+    width: 5vmax;
+    height: 5vmax;
+    border-bottom: 5px solid rgb(52, 51, 51);
+    border-radius: 50%;
+    animation: loadingRotate 800ms linear infinite;
+  }
+}
