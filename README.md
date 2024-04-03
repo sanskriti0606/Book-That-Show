@@ -1,4 +1,4 @@
-# Hello , Kuldip's here
+# Hello , Sanskriti's here
 
 I am doing Full Stack web-development at Almabetter and This is my Backend project for Alma-x selection
 
@@ -36,7 +36,7 @@ These are the deployed links
 If you need any help, you can clone this project
 
 ```bash
-  git clone "https://github.com/Kuldipzade/Book-That-Show"
+  git clone "https://github.com/sanskriti0606/Book-That-Show.git"
 
 ```
 
