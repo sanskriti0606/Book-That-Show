@@ -1,6 +1,6 @@
 # Hello , Sanskriti's here
 
-I am doing Full Stack web-development at Almabetter and This is my Backend project for Alma-x selection
+I am doing Full Stack web-development at Almabetter and This is my Backend project for Alma selection
 
 # Project's Name :-
 
